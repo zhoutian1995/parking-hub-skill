@@ -11,7 +11,7 @@ This is a user-facing skill. Do not include server operations, secrets, private 
 
 ## Setup
 
-The user must sign in at `https://parking.willeai.cn`, open `我的 -> AI 密钥管理`, create an API Key, and provide it to the agent.
+The user must sign in at `https://parking.willeai.cn`, open `我的 -> AI 助手`, create an API Key, and provide it to the agent.
 
 Required environment variable:
 
@@ -257,7 +257,7 @@ Agents may help read or update the Alipay account only after the user explicitly
 
 If the API returns 401:
 - Tell the user the API Key is missing, invalid, or revoked.
-- Ask them to regenerate it at `我的 -> AI 密钥管理`.
+- Ask them to regenerate it at `我的 -> AI 助手`.
 
 If rate-limited:
 - Wait and retry later.
